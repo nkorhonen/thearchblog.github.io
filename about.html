@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+			<meta charset="UTF-8">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+		body{
+			background-color:#F3C45C;
+			background-image: url(pictures/mono-sketch.jpg);
+			background-repeat:no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			font-family: 'Old Standard TT', serif;
+			color:#384458;
+			margin: 0;
+		}
+		.header{
+			width:100%;
+			padding:20px;
+			background-color:#384458;
+			color:#eff5f1; 
+			float:top;
+			position:fixed;
+			top:0;
+			left:0;
+		}
+		.footer{
+			width:100%;
+			padding:20px;
+				padding-left: 0;
+				padding-right:0;
+			background-color:#384458;
+			color:#eff5f1; 
+			float:bottom;
+			bottom:0;
+			left:0;
+			position:relative;
+			top:300px;
+			height:75px;
+
+		}
+		.header div{
+			width:20%;
+			text-align:center;
+			float:left;
+			z-index:3;
+		}
+		.footer div{
+			width:33.33333333333%;
+			text-align:center;
+			float:left;
+			z-index:3;
+		}
+		.about1{
+			width:60%;
+			height:250px;
+			position:relative;
+			left:20px;
+			top:80px;
+			background-color:#eff5f1;
+			color:#384458;
+			padding:30px;
+			font-family: 'Old Standard TT', serif;
+   			opacity:0.9;
+			border:20px solid #F3C45C;
+			text-align:left;
+			z-index: -1;
+		}
+		.about1 img{
+			float:left;
+			display: inline-block;
+			width:300px;
+			height:auto;
+			opacity:1;
+			margin-right: 7px;
+			position: relative;
+			top:20px;
+		}
+		.about2{
+			width:60%;
+			height:250px;
+			position:relative;
+			left:450px;
+			top:220px;
+			background-color:#eff5f1;
+			color:#384458;
+			padding:30px;
+   			opacity:0.9;
+			border:20px solid #F3C45C;
+			text-align:right;
+			z-index: -1;
+		}
+		.about2 img{
+			float:right;
+			display: inline-block;
+			width:auto;
+			height:200px;
+			opacity:1;
+			margin-left: 7px;
+			position: relative;
+			top: 30px;
+		}
+
+		a:visited{
+			color:#eff5f1;
+		}
+
+		a:link{
+			color:#eff5f1;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		a:hover{
+				color:#bfc4c0;
+		}
+	</style>
+
+	<title>
+		About
+	</title>
+</head>
+
+<body>
+	<div class="header">
+			<div>
+				<a href="contact.html">Contact</a>
+			</div>
+
+			<div class=dropdown>
+				<a href="media.html">Media</a>
+			</div>
+
+			<div>
+				<a href="index.html">The Architecture Blog</a>
+			</div>
+
+			<div>
+				<a href="about.html">About</a>
+			</div>
+
+			<div>
+				<a href="articles.html">Articles</a>
+			</div>
+	</div>
+
+	<div class="about1">
+		<img src="pictures/bath.jpg" alt=sketch>
+			<h2><em>About this site...</em></h2></br>
+			<h3>a paragraph explaining the site</h3>
+	</div>
+
+	<div class="about2">
+		<img src="pictures/town.jpg" alt=town>
+			<h2><em>About the author...</em></h2></br>
+			<h3>a paragraph about the author</h3>
+	</div>
+
+	<div class="footer">
+		<p>
+			<div>
+				<a href="gallery.html">Gallery</a>
+			</div>
+			<div>
+				<a href="about.html">Back to Top</a></br><p> © Nathalie Korhonen, 2018</p>
+			</div>
+			<div>
+				<a href="article.html">Latest Article</a>
+			</div>
+		</p>
+	</div>
+
+</body>
+</html>
